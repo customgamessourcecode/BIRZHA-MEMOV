@@ -1,0 +1,1949 @@
+﻿"DOTAHeroes"
+{
+	
+	//=================================================================================================================
+	// Start Game
+	//=================================================================================================================
+	"npc_dota_hero_wisp"
+	{	
+		"override_hero"				"npc_dota_hero_wisp"
+		"Ability1"			"game_start"
+		"model"				"models/items/io/io_ti7/io_ti7.vmdl"
+	}
+	//=================================================================================================================
+	// Techies | Димон Мина | Dimon mine
+	//=================================================================================================================
+	"npc_dota_hero_techies"
+	{
+		"override_hero"				"npc_dota_hero_techies"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"Model"		"models/items/courier/nilbog/nilbog.vmdl"
+		"ModelScale"		"1.580000"
+		"DisableWearables"				"1"
+		"Ability1"					"mina_explosive_wave"
+		"Ability2"					"mina_explosion_jump"
+		"Ability3"					"mina_radiation_field"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"mina_nuclear_strike"
+      	"Ability10"		"special_bonus_unique_techies"
+		"Ability11"		"special_bonus_hp_225"
+		
+		"Ability12"		"special_bonus_mp_300"
+		"Ability13"		"special_bonus_unique_earth_spirit"
+		"Ability15"		"special_bonus_spell_amplify_15"
+		"Ability14"		"special_bonus_cooldown_reduction_15"
+		"Ability16"		"special_bonus_unique_skywrath"
+		"Ability17"		"special_bonus_unique_techies_4"
+		
+		"AttackDamageMin"		"47"
+		"AttackDamageMax"		"49"
+		"AttributeBaseStrength"		"22"
+		
+	}
+	//=================================================================================================================
+	// Invoker | Сергей Дружко | Sergey Druzhko
+	//=================================================================================================================
+	"npc_dota_hero_invoker"
+	{
+		"override_hero"					"npc_dota_hero_invoker"
+		"Ability1"						"lina_laguna_blade"
+		"Ability2"						"lion_finger_of_death"
+		"Ability3"						"antimage_spell_shield"
+		"Ability4"						"generic_hidden"
+		"Ability5"						"generic_hidden"
+		"Ability6"						"Druzhko_Hype"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+
+        "Ability17"		"special_bonus_movement_speed_45"
+		"Ability18"		"special_bonus_all_stats_6"
+		"Ability19"		"special_bonus_spell_amplify_12"
+		"Ability20"		"special_bonus_evasion_20"
+		"Ability21"		"special_bonus_unique_lion_3"
+		"Ability22"		"special_bonus_unique_invoker_1"
+		"Ability23"		"special_bonus_cast_range_400"
+		"Ability24"		"special_bonus_unique_antimage_4"
+		
+		"AttributeBaseIntelligence"		"25"
+		"AttributeIntelligenceGain"		"10.000000"
+	}
+	//=================================================================================================================
+	// Nevermore | Never | Never
+	//=================================================================================================================
+	"npc_dota_hero_nevermore"
+	{
+		"override_hero"			"npc_dota_hero_nevermore"
+		"Ability1"				"never_stupid"
+		"Ability2"				"never_spit"
+		"Ability3"				"never_speed"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"Never_ultimate"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_movement_speed_45"
+		"Ability11"		"special_bonus_attack_speed_45"
+		"Ability12"		"special_bonus_lifesteal_15"
+		"Ability13"		"special_bonus_hp_300"
+		"Ability14"		"special_bonus_strength_20"
+		"Ability15"		"special_bonus_evasion_20"
+		"Ability16"		"special_bonus_attack_damage_100"
+		"Ability17"		"special_bonus_magic_resistance_30"
+		
+		"MovementSpeed"		"275"
+		"AttackDamageMin"		"50"
+		"AttackDamageMax"		"60"
+		"AttributeBaseStrength"		"20"
+
+		"precache"
+		{
+			"model" 	"models/heroes/shadow_fiend/arcana_wings.vmdl"
+			"model" 	"models/heroes/shadow_fiend/head_arcana.vmdl"
+			"model" 	"models/heroes/shadow_fiend/shadow_fiend_arcana.vmdl"
+			"model" 	"models/items/shadow_fiend/arms_deso/arms_deso.vmdl"
+		}
+	}
+	//=================================================================================================================
+	// Omniknight | Порошенко | Poroshenko
+	//=================================================================================================================
+	"npc_dota_hero_omniknight"
+	{
+		"override_hero"			"npc_dota_hero_omniknight"
+		"Ability1"				"Poroshenko_Slava_Ukraine"
+		"Ability2"				"Poroshenko_fat"
+		"Ability3"				"huskar_berserkers_blood"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"poroshenko_donbass"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_mp_200"
+		"Ability11"		"special_bonus_hp_regen_5"
+		"Ability12"		"special_bonus_movement_speed_40"
+		"Ability13"		"special_bonus_lifesteal_15"
+		"Ability14"		"special_bonus_attack_damage_60"
+		"Ability15"		"special_bonus_cooldown_reduction_15"
+		"Ability16"		"special_bonus_unique_sven_3"
+		"Ability17"		"special_bonus_strength_40"
+	}
+	
+	//=================================================================================================================
+	// Lone Druid | Кадет | Kadet
+	//=================================================================================================================
+	"npc_dota_hero_lone_druid"
+	{
+		"override_hero"			"npc_dota_hero_lone_druid"
+		"DisableWearables"				"1"
+		"Model"		"models/heroes/lone_druid/lone_druid.vmdl"
+		"Ability1"				"Kadet_fuck_faggots"
+		"Ability2"				"Kadet_Army"
+		"Ability3"				"Kadet_fast_attacks"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"monkey_king_jingu_mastery"
+		"Ability7"				"generic_hidden"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_mp_175"
+		"Ability12"		"special_bonus_unique_chaos_knight"
+		"Ability13"		"special_bonus_attack_damage_50"
+		"Ability14"		"special_bonus_unique_chaos_knight_3"
+		"Ability15"		"special_bonus_evasion_30"
+		"Ability16"		"special_bonus_unique_monkey_king_2"
+		"Ability17"		"special_bonus_attack_range_250"
+	}
+	
+	//=================================================================================================================
+	// Pudge | Жирная мамка | Fat Mum
+	//=================================================================================================================
+	"npc_dota_hero_pudge"
+	{
+		"override_hero"			"npc_dota_hero_pudge"
+		"Model"					"models/items/pudge/arcana/pudge_arcana_base.vmdl"
+		"DisableWearables"		"1"
+		"Ability1"				"pudge_meat_hook"
+		"Ability2"				"mum_arrows_of_death"
+		"Ability3"				"mum_fart"
+		"Ability4"				"pudge_flesh_heap"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"fut_mum_eat"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_unique_pudge_2"
+		"Ability11"		"special_bonus_strength_8"
+		"Ability12"		"special_bonus_unique_pudge_3"
+		"Ability13"		"special_bonus_cast_range_200"
+		"Ability14"		"special_bonus_spell_lifesteal_20"
+		"Ability15"		"special_bonus_movement_speed_75"
+		"Ability16"		"special_bonus_cooldown_reduction_25"
+		"Ability17"		"special_bonus_unique_pudge_1"
+	}
+	//=================================================================================================================
+	// Skeleton King | Папич | EvilArthas
+	//=================================================================================================================
+	"npc_dota_hero_skeleton_king"
+	{
+		"override_hero"					"npc_dota_hero_skeleton_king"
+		"Model"							"models/heroes/wraith_king/wraith_king.vmdl"
+		"AttributeBaseStrength"		"25"
+		"Ability1"				"Papich_HellFire_Blast"
+		"Ability2"				"Papich_reincarnation"
+		"Ability3"				"Papich_StreamSnipers"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"Papich_in_solo"		// Ability 6
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"				"special_bonus_hp_350"
+		"Ability11"				"special_bonus_unique_wraith_king_3"
+		"Ability12"				"special_bonus_attack_speed_60"
+		"Ability13"				"special_bonus_armor_10"
+		"Ability14"				"special_bonus_strength_25"
+		"Ability15"				"special_bonus_magic_resistance_30"
+		"Ability16"				"special_bonus_lifesteal_30"
+		"Ability17"				"special_bonus_truestrike"
+	}
+
+	//=================================================================================================================
+	// Crystal Maiden | Рем | Rem
+	//=================================================================================================================
+	"npc_dota_hero_crystal_maiden"
+	{
+		"override_hero"			"npc_dota_hero_crystal_maiden"
+		"Model"		"models/hero_rem/hero_rem_base.vmdl"
+		"ModelScale"		"1.120000"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackAcquisitionRange"	"600"
+		"AttackRange"				"250"
+		"DisableWearables"				"1"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"IsAnime"	"1"
+		
+		"AttributeBaseStrength"		"19"
+		"AttributeStrengthGain"		"1.500000"
+		
+		"AttributeBaseIntelligence"		"18"
+		"AttributeIntelligenceGain"		"1.500000"
+		
+		"AttributeBaseAgility"		"25"
+		"AttributeAgilityGain"		"3.000000"
+		
+		"Ability1"				"Rem_StrikeJump"
+		"Ability2"				"rattletrap_hookshot"
+		"Ability3"				"Rem_BigBoobs"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"Rem_DemonicForm"
+		
+		"Ability10"		"special_bonus_hp_200"
+		"Ability11"		"special_bonus_magic_resistance_15"
+		"Ability12"		"special_bonus_agility_15"
+		"Ability13"		"special_bonus_corruption_5"
+		"Ability14"		"special_bonus_unique_vengeful_spirit_5"
+		"Ability15"		"special_bonus_unique_vengeful_spirit_6"
+		"Ability16"		"special_bonus_hp_500"
+		"Ability17"		"special_bonus_attack_damage_150"
+	}
+	//=================================================================================================================
+	// Juggernaut | Азазин | Azazin
+	//=================================================================================================================
+	"npc_dota_hero_juggernaut"
+	{
+		"override_hero"			"npc_dota_hero_juggernaut"
+		"DisableWearables"				"1"	
+		"ModelScale"		"1.25"
+		"Model"		"models/npc/npc_dingus/dingus.vmdl"
+		"Ability1"				"naga_siren_mirror_image"
+		"Ability2"				"spectre_dispersion"
+		"Ability3"				"axe_berserkers_call"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"Azazin_Spinner"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_unique_naga_siren_4"
+		"Ability11"		"special_bonus_movement_speed_35"
+		"Ability12"		"special_bonus_unique_naga_siren"
+		"Ability13"		"special_bonus_unique_axe_2"
+		"Ability14"		"special_bonus_unique_spectre_5"
+		"Ability15"		"special_bonus_unique_oracle"
+		"Ability16"		"special_bonus_evasion_75"
+		"Ability17"		"special_bonus_unique_oracle_2"
+	}
+
+	//=================================================================================================================
+	// Warlock | Дядя Богдан | Uncle Bogdan
+	//=================================================================================================================
+	"npc_dota_hero_warlock"
+	{
+		"override_hero"			"npc_dota_hero_warlock"
+		"Model"		"models/heroes/warlock/warlock.vmdl"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"1.500000"
+		"AttributeBaseIntelligence"		"20"
+		"AttributeIntelligenceGain"		"1.500000"
+		"AttributeBaseAgility"		"25"
+		"AttributeAgilityGain"		"3.500000"
+		"DisableWearables"				"1"	
+		"Ability1"				"Bogdan_Cower"
+		"Ability2"				"Bogdan_key"
+		"Ability3"				"viper_poison_attack"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"Bogdan_Ultimate"
+		
+		"Ability10"		"special_bonus_unique_warlock_5"
+		"Ability11"		"special_bonus_evasion_10"
+		"Ability12"		"special_bonus_attack_speed_50"
+		"Ability13"		"special_bonus_unique_warlock_3"
+		"Ability14"		"special_bonus_attack_range_100"
+		"Ability15"		"special_bonus_corruption_5"
+		"Ability16"		"special_bonus_hp_600"
+		"Ability17"				"special_bonus_gold_income_70"
+	}
+
+	//=================================================================================================================
+	// Lina | Рам | Ram
+	//=================================================================================================================
+	"npc_dota_hero_lina"
+	{
+		"override_hero"			"npc_dota_hero_lina"
+		"Ability1"				"ram_fura"
+		"Ability2"				"ram_ElFura"
+		"Ability3"				"ram_DemonicShield"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"ram_ultimate"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"IsAnime"	"1"
+		
+		"Ability10"		"special_bonus_unique_lina_2"
+		"Ability11"		"special_bonus_movement_speed_40"
+		"Ability12"		"special_bonus_unique_lina_1"
+		"Ability13"		"special_bonus_armor_10"
+		"Ability14"		"special_bonus_spell_amplify_15"
+		"Ability15"		"special_bonus_cooldown_reduction_15"
+		"Ability16"		"special_bonus_gold_income_70"
+		"Ability17"		"special_bonus_spell_block_20"
+	}
+
+	//=================================================================================================================
+	// Terrorblade | Николай Соболев | Sobolev
+	//=================================================================================================================
+	"npc_dota_hero_terrorblade"
+	{
+		"override_hero"			"npc_dota_hero_terrorblade"
+		"ModelScale"		"1.480000"
+		"Ability1"				"Sobolev_Bash"
+		"Ability2"				"puck_phase_shift"
+		"Ability3"				"sobolev_biceps"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"slark_shadow_dance"
+		"Ability6"				"Sobolev_Egoism"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+
+		"Ability10"		"special_bonus_attack_speed_30"
+		"Ability11"		"special_bonus_hp_250"
+		"Ability12"		"special_bonus_mana_break_20"
+		"Ability13"		"special_bonus_hp_regen_10"
+		"Ability14"		"special_bonus_evasion_30"
+		"Ability15"		"special_bonus_lifesteal_25"
+		"Ability16"		"special_bonus_unique_lone_druid_7"
+		"Ability17"		"special_bonus_unique_slark_3"
+	}
+
+	//=================================================================================================================
+	// Bounty Hunter | Еврей | Jew
+	//=================================================================================================================
+	"npc_dota_hero_bounty_hunter"
+	{
+		"override_hero"			"npc_dota_hero_bounty_hunter"
+		"DisableWearables"		"1"	
+		"Ability1"				"ember_spirit_flame_guard"
+		"Ability2"				"evrei_zhad"
+		"Ability3"				"evrei_znak"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"evrei_ult"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_unique_ember_spirit_3"
+		"Ability11"		"special_bonus_movement_speed_45"
+		"Ability12"		"special_bonus_unique_ember_spirit_1"
+		"Ability13"		"special_bonus_attack_speed_60"
+		"Ability14"		"special_bonus_unique_ember_spirit_2"
+		"Ability15"		"special_bonus_truestrike"
+		"Ability16"		"special_bonus_unique_ember_spirit_4"
+		"Ability17"		"special_bonus_evasion_50"
+	}
+	//=================================================================================================================
+	// Beastmaster | Кама пуля | Kama Bullet
+	//=================================================================================================================
+	"npc_dota_hero_beastmaster"
+	{
+		"override_hero"			"npc_dota_hero_beastmaster"
+		"DisableWearables"				"1"			
+		"Ability1"					"bullet_taa"
+		"Ability2"					"bullet_sha"	
+		"Ability3"					"Bullet_Stats"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"Bullet_BulletInTheHead"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_gold_income_15"
+		"Ability11"		"special_bonus_hp_350"
+		"Ability12"		"special_bonus_unique_beastmaster"
+		"Ability13"		"special_bonus_unique_beastmaster_2"
+		"Ability14"		"special_bonus_unique_beastmaster_3"
+		"Ability15"		"special_bonus_vision_200"
+		"Ability16"		"special_bonus_spell_amplify_25"
+		"Ability17"		"special_bonus_cooldown_reduction_25"
+	}
+
+	//=================================================================================================================
+	// Necrophos | Зема | Zema
+	//=================================================================================================================
+	"npc_dota_hero_necrolyte"
+	{
+		"override_hero"			"npc_dota_hero_necrolyte"
+		"DisableWearables"			"1"	
+		"Ability1"					"Zema_CosmoTeleport"
+		"Ability2"					"Zema_Cosmo_Ray"
+		"Ability3"					"Zema_MagicDamage"
+		"Ability4"					"generic_hidden"	
+		"Ability5"					"Zema_cosmo_ray_stop"
+		"Ability6"					"Zema_cosmic_blindness"	
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		
+		"Ability10"		"special_bonus_unique_antimage_3"
+		"Ability11"		"special_bonus_unique_phoenix_5"
+		"Ability12"		"special_bonus_spell_lifesteal_10"
+		"Ability13"		"special_bonus_intelligence_20"
+		"Ability14"		"special_bonus_unique_grimstroke_3"
+		"Ability15"		"special_bonus_gold_income_30"
+		"Ability16"		"special_bonus_cooldown_reduction_30"
+		"Ability17"		"special_bonus_unique_grimstroke_4"			
+	}
+
+	//=================================================================================================================
+	// Alchemist | BigRussianBoss
+	//=================================================================================================================
+	"npc_dota_hero_alchemist"
+	{
+		"override_hero"				"npc_dota_hero_alchemist"	
+
+		"Ability1"					"BigRussianBoss_Vape"
+		"Ability2"					"alchemist_unstable_concoction"
+		"Ability3"					"BigRussianBoss_Steb"	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"BigRussianBoss_test"
+		"Ability7"					"alchemist_unstable_concoction_throw"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_magic_resistance_15"
+		"Ability11"		"special_bonus_armor_5"
+		"Ability12"		"special_bonus_lifesteal_15"
+		"Ability13"		"special_bonus_all_stats_10"
+		"Ability14"		"special_bonus_attack_speed_100"
+		"Ability15"		"special_bonus_unique_invoker_3"
+		"Ability16"		"special_bonus_cooldown_reduction_15"
+		"Ability17"		"special_bonus_gold_income_70"
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"3.500000"
+		"AttributeBaseAgility"		"16"
+		"AttributeAgilityGain"		"2.500000"
+		"AttributeBaseIntelligence"		"25"
+		"AttributeIntelligenceGain"		"1.800000"
+	}
+
+	//=================================================================================================================
+	// Slark | Vjlink | Vjlink
+	//=================================================================================================================
+	"npc_dota_hero_slark"
+	{
+		"override_hero"				"npc_dota_hero_slark"
+		"Ability1"					"Vjlink_sputum"	
+		"Ability2"					"Vjlink_python"	
+		"Ability3"					"Vjlink_teeth"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"Vjlink_dudos"
+		
+		"Ability10"		"special_bonus_armor_4"
+		"Ability11"		"special_bonus_hp_200"
+		"Ability12"		"special_bonus_movement_speed_50"
+		"Ability13"		"special_bonus_unique_lifestealer_3"
+		"Ability14"		"special_bonus_evasion_50"
+		"Ability15"		"special_bonus_30_crit_2"
+		"Ability16"		"special_bonus_unique_lifestealer_2"
+		"Ability17"		"special_bonus_attack_speed_250"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"3.100000"
+		"AttributeBaseIntelligence"		"15"
+		"AttributeIntelligenceGain"		"1.75000"
+		"AttributeBaseAgility"		"18"
+		"AttributeAgilityGain"		"1.900000"		
+	}
+
+	
+	//=================================================================================================================
+	// Gyrocopter | Паровозик Томас | Train Thomas
+	//=================================================================================================================
+	"npc_dota_hero_gyrocopter"
+	{
+		"override_hero"					"npc_dota_hero_gyrocopter"
+		"DisableWearables"				"1"	
+		"Model"							"models/heroes/thomas/thomas.vmdl"
+		"ModelScale"					"1.2"
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"			"18"
+		"AttributeStrengthGain"			"1.500000"
+		"AttributeBaseIntelligence"		"30"
+		"AttributeIntelligenceGain"		"2.800000"
+		"AttributeBaseAgility"			"10"
+		"AttributeAgilityGain"			"0"
+		
+		"Ability1"					"Thomas_smoke"
+		"Ability2"					"thomas_fired"	
+		"Ability3"					"thomas_housing"		
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"Thomas_MLG_RaGE"
+		
+		"Ability10"		"special_bonus_gold_income_15"
+		"Ability11"		"special_bonus_unique_gyrocopter_1"
+		"Ability12"		"special_bonus_hp_350"
+		"Ability13"		"special_bonus_mp_250"	
+		"Ability14"		"special_bonus_spell_amplify_15"
+		"Ability15"		"special_bonus_mp_regen_14"	
+		"Ability16"		"special_bonus_unique_gyrocopter_2"
+		"Ability17"		"special_bonus_unique_gyrocopter_3"
+	}
+	//=================================================================================================================
+	// Kunkka | Навальный | Navalniy
+	//=================================================================================================================
+	"npc_dota_hero_kunkka"
+	{
+		"override_hero"			"npc_dota_hero_kunkka"
+		"Ability1"				"Naval_meeting"
+		"Ability2"				"alchemist_acid_spray"
+		"Ability3"				"Naval_Youtube"
+		"Ability4"				"generic_hidden"
+		"Ability5"				"generic_hidden"
+		"Ability6"				"Naval_President"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_unique_alchemist_5"
+		"Ability11"		"special_bonus_attack_speed_50"
+		"Ability12"		"special_bonus_unique_alchemist_2"
+		"Ability13"		"special_bonus_unique_alchemist_3"
+		"Ability14"		"special_bonus_strength_25"
+		"Ability15"		"special_bonus_agility_20"
+		"Ability16"		"special_bonus_unique_alchemist_4"
+		"Ability17"		"special_bonus_30_crit_2"
+	}
+
+	//=================================================================================================================
+	// Brewmaster | Хованский | KHovansky
+	//=================================================================================================================
+	"npc_dota_hero_brewmaster"
+	{
+		"override_hero"				"npc_dota_hero_brewmaster"
+		"DisableWearables"				"1"
+
+		"Ability1"					"Hovan_Pyramide"
+		"Ability2"					"Hovan_DrinkBeer"
+		"Ability3"					"Hovan_ShavermaPatrul"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"Hovan_GanstaBooms"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		
+		
+		"Ability10"		"special_bonus_hp_350"
+		"Ability11"		"special_bonus_unique_brewmaster"
+		"Ability12"		"special_bonus_armor_10"
+		"Ability13"		"special_bonus_magic_resistance_20"
+		"Ability14"		"special_bonus_unique_brewmaster_3"
+		"Ability15"		"special_bonus_unique_brewmaster_4"
+		"Ability16"		"special_bonus_cooldown_reduction_30"
+		"Ability17"		"special_bonus_unique_shadow_demon_1"
+	}
+	
+	//=================================================================================================================
+	// Templar Assassin | Мегумин | Megumin
+	//=================================================================================================================
+	"npc_dota_hero_templar_assassin"
+	{
+		"override_hero"				"npc_dota_hero_templar_assassin"
+		"Model"		"models/hero_megumin/hero_megumin_base.vmdl"
+		"DisableWearables"				"1"
+		"AttackAcquisitionRange"	"600"
+		"AttackRange"				"600"		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"18"
+		"AttributeStrengthGain"		"1.500000"
+		"AttributeBaseIntelligence"		"24"
+		"AttributeIntelligenceGain"		"2.800000"
+		"AttributeBaseAgility"		"19"
+		"AttributeAgilityGain"		"2.100000"
+		"Ability1"					"Megumin_armageddon"
+		"Ability2"					"megumin_meteors"
+		"Ability3"					"Megumin_mana_aura"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"Megumin_ExplosionMagic"
+		"IsAnime"	"1"
+		
+		"Ability10"		"special_bonus_unique_invoker_7"
+		"Ability11"		"special_bonus_intelligence_10"
+		"Ability12"		"special_bonus_unique_templar_assassin"
+		"Ability13"		"special_bonus_unique_templar_assassin_2"
+		"Ability14"		"special_bonus_unique_templar_assassin_3"
+		"Ability15"		"special_bonus_unique_invoker_8"
+		"Ability17"		"special_bonus_spell_amplify_3"
+		"Ability16"		"special_bonus_cooldown_reduction_30"
+	}
+	
+	//=================================================================================================================
+	// Lycan | Versuta | Versuta
+	//=================================================================================================================
+	"npc_dota_hero_lycan"
+	{
+		"override_hero"				"npc_dota_hero_lycan"
+		"Ability1"					"Versuta_son_dog"
+		"Ability2"					"Versuta_dog_change"
+		"Ability3"					"Versuta_Rage"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"Versuta_pudge"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_unique_lycan_4"
+		"Ability11"		"special_bonus_attack_damage_35"
+		"Ability12"		"special_bonus_unique_lycan_1"
+		"Ability13"		"special_bonus_armor_10"
+		"Ability14"		"special_bonus_unique_lycan_3"
+		"Ability15"		"special_bonus_strength_25"
+		"Ability17"		"special_bonus_attack_speed_140"
+		"Ability16"		"special_bonus_unique_lycan_2"
+	}
+
+	//=================================================================================================================
+	// Ogre Magi | SilverName | SilverName
+	//=================================================================================================================
+	"npc_dota_hero_ogre_magi"
+	{
+		"override_hero"				"npc_dota_hero_ogre_magi"
+		"Ability1"					"SilverName_TopDeck"
+		"Ability2"					"SilverName_Screamer"
+		"Ability3"					"SilverName_Papaz"
+		"Ability4"					"generic_hidden"
+	    "Ability5"					"generic_hidden"
+		"Ability6"					"SilverName_Owl"
+		"AttributeBaseStrength"		"23"
+		"AttributeStrengthGain"		"1.500000"
+		"AttributeBaseAgility"		"14"
+		"AttributeAgilityGain"		"3.000000"
+		"AttributeBaseIntelligence"		"17"
+		"AttributeIntelligenceGain"		"2.000000"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_unique_ogre_magi"
+		"Ability11"		"special_bonus_strength_10"
+		"Ability12"		"special_bonus_unique_ogre_magi_2"
+		"Ability13"		"special_bonus_cooldown_reduction_20"
+		"Ability14"		"special_bonus_unique_night_stalker"
+		"Ability15"		"special_bonus_unique_night_stalker_2"
+		"Ability17"		"special_bonus_attack_damage_150"
+		"Ability16"		"special_bonus_attack_range_250"
+	}
+	
+	//=================================================================================================================
+	// Storm Spirit | DaniilNavat | DaniilNavat
+	//=================================================================================================================
+    "npc_dota_hero_storm_spirit"
+	{
+        "override_hero" "npc_dota_hero_storm_spirit"
+		"Model"		"models/heroes/storm_spirit/storm_spirit.vmdl"
+		"DisableWearables"				"1"	
+        "AbilityLayout" "6"
+        "Ability1" "Daniil_StormBolt"
+        "Ability2" "Daniil_LaughingRush"
+        "Ability3" "Daniil_StormCharge"
+        "Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Daniil_VortexSilence"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		
+		"Ability10"		"special_bonus_unique_zeus_2"
+		"Ability11"		"special_bonus_attack_speed_50"
+		"Ability12"		"special_bonus_unique_zeus"
+		"Ability13"		"special_bonus_attack_damage_60"
+		"Ability14"		"special_bonus_cooldown_reduction_20"
+		"Ability15"		"special_bonus_spell_amplify_25"
+		"Ability17"		"special_bonus_attack_speed_140"
+		"Ability16"		"special_bonus_unique_zeus_3"
+	}
+	
+	//=================================================================================================================
+	// EarthShaker | Глад Валакас | Glad Valakas
+	//=================================================================================================================
+    "npc_dota_hero_earthshaker"
+	{
+        "override_hero" "npc_dota_hero_earthshaker"
+		"DisableWearables"				"1"	
+        "AbilityLayout" "4"
+        "Ability1" 		"Valakas_sorry"
+        "Ability2" 		"Valakas_DabDabDab"
+        "Ability3" 		"Valakas_DaDaYa"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Valakas_Gadza"	
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_movement_speed_40"
+		"Ability11"		"special_bonus_cooldown_reduction_10"
+		"Ability12"		"special_bonus_armor_10"
+		"Ability13"		"special_bonus_unique_earthshaker"
+		"Ability14"		"special_bonus_unique_mirana_3"
+		"Ability15"		"special_bonus_unique_mirana_1"
+		"Ability16"		"special_bonus_unique_earthshaker_2"
+		"Ability17"		"special_bonus_unique_earthshaker_3"
+	}
+	
+	//=================================================================================================================
+	// Dragon Knight | Роби Злобный | Robi Evil
+	//=================================================================================================================
+    "npc_dota_hero_dragon_knight"
+	{
+        "override_hero" 	"npc_dota_hero_dragon_knight"
+		"DisableWearables"	"1"	
+        "AbilityLayout" 	"4"
+        "Ability1" 			"naga_siren_ensnare"
+        "Ability2"			"roby_agility"
+        "Ability3" 			"riki_permanent_invisibility"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"Robi_WeAreNumberOneTeleport"
+		"Ability6"			"Robi_WeAreNumberOne"
+	
+		"Ability10"		"special_bonus_hp_regen_5"
+		"Ability11"		"special_bonus_agility_10"
+		"Ability12"		"special_bonus_20_crit_15"
+		"Ability13"		"special_bonus_unique_riki_1"
+		"Ability14"		"special_bonus_hp_500"
+		"Ability15"		"special_bonus_unique_riki_4"
+		"Ability16"		"special_bonus_unique_riki_3"
+		"Ability17"		"special_bonus_unique_riki_5"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"19"
+		"AttributeStrengthGain"		"2.2"
+		"AttributeBaseAgility"		"30"
+		"AttributeAgilityGain"		"2.2"
+		"AttributeBaseIntelligence"	"15"
+		"AttributeIntelligenceGain"	"1.7"
+	}
+	
+	//=================================================================================================================
+	// Ember Spirit | Билли Херингтон | Billy Herington
+	//=================================================================================================================
+    "npc_dota_hero_ember_spirit"
+	{
+        "override_hero" "npc_dota_hero_ember_spirit"
+		"DisableWearables"				"1"	
+        "AbilityLayout" "4"
+        "Ability1" 		"Gachi_Binding"
+        "Ability2" 		"Gachi_armor"
+        "Ability3" 		"Gachi_HitOnAss"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Gachi_GachiPower"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_unique_earth_spirit_2"
+		"Ability11"		"special_bonus_exp_boost_25"
+	    "Ability12"		"special_bonus_attack_speed_50"
+		"Ability13"		"special_bonus_hp_350"
+		"Ability14"		"special_bonus_unique_luna_4"
+		"Ability15"		"special_bonus_evasion_50"
+		"Ability16"		"special_bonus_unique_earth_spirit_3"
+		"Ability17"		"special_bonus_unique_death_prophet"
+		
+		"AttributeBaseStrength"		"22"
+		"AttributeStrengthGain"		"3"
+		"AttributeBaseAgility"		"22"
+		"AttributeAgilityGain"		"2.8"	
+	}
+	
+	//=================================================================================================================
+	// Phantom Assassin | Юно Гасай | Yuno Gasai
+	//=================================================================================================================
+    "npc_dota_hero_phantom_assassin"
+	{
+        "override_hero" "npc_dota_hero_phantom_assassin"
+		"Model"		"models/heroes/life_stealer/life_stealer.vmdl"
+		"DisableWearables"				"1"	
+        "AbilityLayout" "4"
+		
+        "Ability1" 	"Yuno_Rage"
+        "Ability2" 	"Yuno_sharpness_axe"
+        "Ability3" 	"queenofpain_blink"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"weaver_time_lapse"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"IsAnime"	"1"
+		"Ability10"		"special_bonus_mana_break_25"
+		"Ability11"		"special_bonus_hp_250"
+	    "Ability12"		"special_bonus_corruption_5"
+		"Ability13"		"special_bonus_unique_phantom_assassin"
+		"Ability14"		"special_bonus_lifesteal_20"
+		"Ability15"		"special_bonus_unique_phantom_assassin_2"
+		"Ability16"		"special_bonus_agility_40"
+		"Ability17"		"special_bonus_unique_phantom_assassin_3"
+	}
+	
+	//=================================================================================================================
+	// Queen Of Pain | Куруми | Kurumi
+	//=================================================================================================================
+     "npc_dota_hero_queenofpain"
+  {
+        "override_hero" 	"npc_dota_hero_queenofpain"
+		"Model"				"models/heroes/weaver/weaver.vmdl"
+		"ProjectileModel"	"particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
+		"DisableWearables"	"1"	
+        "AbilityLayout" 	"4"
+		
+        "Ability1" 		"phantom_lancer_doppelwalk"
+        "Ability2" 		"Kurumi_god"
+        "Ability3" 		"Kurumi_Absorption"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Kurumi_Zafkiel"
+		
+		"Ability10"		"special_bonus_evasion_10"
+		"Ability11"		"special_bonus_attack_speed_20"
+		
+	    "Ability12"		"special_bonus_agility_15"
+		"Ability13"		"special_bonus_unique_invoker_6"
+		
+		"Ability14"		"special_bonus_unique_queen_of_pain"
+		"Ability15"		"special_bonus_unique_slark_4"
+		
+		"Ability16"		"special_bonus_unique_phantom_lancer_4"
+		"Ability17"		"special_bonus_unique_queen_of_pain_2"
+		
+		"IsAnime"	"1"
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"17"
+		"AttributeStrengthGain"			"2"
+		"AttributeBaseIntelligence"		"15"
+		"AttributeIntelligenceGain"		"1.7"
+		"AttributeBaseAgility"			"29"
+		"AttributeAgilityGain"			"2.5"
+	}
+	//=================================================================================================================
+	// Monkey King | Опасный Поцык | Dangerous Boy
+	//=================================================================================================================
+    "npc_dota_hero_monkey_king"
+	{
+        "override_hero" "npc_dota_hero_monkey_king"
+        "AbilityLayout" "4"
+		
+        "Ability1" "Pocik_VerySmall"
+        "Ability2" "Pocik_pizda"
+        "Ability3" "Pocik_ThisMyPoint"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Pocik_penek"
+		"Ability7" "generic_hidden"
+		"Ability8" "ThisMyPoint_return"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_strength_10"
+		"Ability12"		"special_bonus_unique_monkey_king_7"
+		"Ability13"		"special_bonus_attack_speed_60"
+		"Ability14"		"special_bonus_gold_income_30"
+		"Ability15"		"special_bonus_unique_monkey_king_6"
+		"Ability16"		"special_bonus_attack_speed_140"
+		"Ability17"		"special_bonus_hp_500"
+	}
+	//=================================================================================================================
+	// Windrunner | Оляша | Olyasha
+	//=================================================================================================================
+    "npc_dota_hero_windrunner"
+	{
+        "override_hero" "npc_dota_hero_windrunner"
+        "AbilityLayout" "4"
+        "Ability1" 					"clinkz_strafe"
+        "Ability2" 					"Olyasha_love"
+        "Ability3" 					"Olyasha_Vzhuh"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"kunkka_ghostship"
+		
+		"Ability10"		"special_bonus_evasion_15"
+		"Ability11"		"special_bonus_armor_5"
+		"Ability12"		"special_bonus_unique_clinkz_2"
+		"Ability13"		"special_bonus_magic_resistance_30"
+		"Ability14"		"special_bonus_unique_windranger_2"
+		"Ability15"		"special_bonus_unique_windranger"
+		"Ability16"		"special_bonus_unique_kunkka_3"
+		"Ability17"		"special_bonus_unique_windranger_3"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"20"
+		"AttributeStrengthGain"		"2"
+		"AttributeBaseIntelligence"		"19"
+		"AttributeIntelligenceGain"		"2.1000"
+		"AttributeBaseAgility"		"20"
+		"AttributeAgilityGain"		"2.500000"
+	}
+	//=================================================================================================================
+	// Doom | Slidan | Slidan
+	//=================================================================================================================
+    "npc_dota_hero_doom_bringer"
+	{
+        "override_hero" "npc_dota_hero_doom_bringer"
+		"DisableWearables"				"1"	
+        "AbilityLayout" "4"
+		
+        "Ability1" 			"Slidan_WorldEdit"
+        "Ability2" 			"Slidan_SuckDick"
+        "Ability3" 			"Slidan_NetherDroch"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"Slidan_ReallyClassic_talent"
+	    "Ability6" 			"Slidan_ReallyClassic"	
+		
+		"Ability10"		"special_bonus_spell_amplify_6"
+		"Ability11"		"special_bonus_cast_range_75"
+		"Ability12"		"special_bonus_unique_doom_3"
+		"Ability13"		"special_bonus_unique_doom_2"
+		"Ability14"		"special_bonus_gold_income_30"
+		"Ability15"		"special_bonus_armor_15"
+		"Ability16"		"special_bonus_unique_doom_4"
+		"Ability17"		"special_bonus_unique_doom_1"
+		
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"			"18"
+		"AttributeStrengthGain"			"1.700000"
+		"AttributeBaseAgility"			"20"
+		"AttributeAgilityGain"			"2.200000"
+		"AttributeBaseIntelligence"		"30"
+		"AttributeIntelligenceGain"		"3.500000"
+	}
+	//=================================================================================================================
+	// Tiny | John Cena | John Cena
+	//=================================================================================================================
+    "npc_dota_hero_tiny"
+	{
+        "override_hero" "npc_dota_hero_tiny"
+        "AbilityLayout" "4"
+        "Ability1" 	"tiny_grow"
+        "Ability2" 	"JohnCena_Chargehit"
+        "Ability3" 	"spirit_breaker_greater_bash"
+	    "Ability4" 	"JohnCena_ThrowTheEnemy"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"JohnCena_Grab"
+		"Ability7"	"generic_hidden"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_hp_regen_10"
+		"Ability12"		"special_bonus_unique_spirit_breaker_3"
+		"Ability13"		"special_bonus_unique_tiny_2"
+		"Ability14"		"special_bonus_cooldown_reduction_20"
+		"Ability15"		"special_bonus_attack_speed_120"
+		"Ability16"		"special_bonus_unique_tiny"
+		"Ability17"		"special_bonus_unique_spirit_breaker_1"
+	}
+	//=================================================================================================================
+	// Faceless Void | Дио Брандо | Dio Brando
+	//=================================================================================================================
+    "npc_dota_hero_faceless_void"
+	{
+		"Model" 				"models/heroes/faceless_void/faceless_void.vmdl"
+		"DisableWearables"		"1"
+        "AbilityLayout" 		"4"
+		
+        "Ability1" 		"Dio_Kakyoin"
+        "Ability2" 		"Dio_Wry"
+        "Ability3" 		"Dio_Blink"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Dio_TheWorld"
+		
+		"Ability10"		"special_bonus_unique_faceless_void_3"
+		"Ability11"		"special_bonus_gold_income_15"
+		"Ability12"		"special_bonus_spell_amplify_15"
+		"Ability13"		"special_bonus_movement_speed_65"
+		"Ability14"		"special_bonus_attack_speed_80"
+		"Ability15"		"special_bonus_unique_faceless_void"
+		"Ability16"		"special_bonus_unique_faceless_void_2"
+		"Ability17"		"special_bonus_unique_skywrath_2"
+		
+		"IsAnime"	"1"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"21"									
+		"AttributeStrengthGain"		"1.7"									
+		"AttributeBaseIntelligence"	"30"									
+		"AttributeIntelligenceGain"	"3.0"									
+		"AttributeBaseAgility"		"19"
+		"AttributeAgilityGain"		"1.2"	
+	}
+	//=================================================================================================================
+	// Axe | Абдулов | Abdulov
+	//=================================================================================================================
+    "npc_dota_hero_axe"
+	{
+        "override_hero" 	"npc_dota_hero_axe"
+        "AbilityLayout" 	"4"
+        "Ability1" 			"Abdulov_DefenceFromMushrooms"
+        "Ability2" 			"Abdulov_OvertakingMushrooms"
+        "Ability3" 			"Abdulov_TripToHell"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"Abdulov_CutMushrooms"
+		"AttackRate"		"1.400000"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"			"special_bonus_strength_10"
+		"Ability11"			"special_bonus_attack_speed_40"
+		"Ability12"			"special_bonus_unique_axe"
+		"Ability13"			"special_bonus_unique_silencer_4"
+		"Ability14"			"special_bonus_cooldown_reduction_20"
+		"Ability15"			"special_bonus_unique_invoker_2"
+		"Ability16"			"special_bonus_armor_30"
+		"Ability17"			"special_bonus_unique_axe_3"
+	}
+	//=================================================================================================================
+	// Spirit Breaker | Кличко | Klichko
+	//=================================================================================================================
+    "npc_dota_hero_spirit_breaker"
+	{
+        "AbilityLayout" "4"
+        "Ability1" 		"spirit_breaker_charge_of_darkness"
+        "Ability2" 		"Klichko_BoxingPunchSeries"
+        "Ability3" 		"Klichko_SayBullshit"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Klichko_BecomeMayor"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_mp_100"
+		"Ability12"		"special_bonus_lifesteal_15"
+		"Ability13"		"special_bonus_strength_15"	
+		"Ability14"		"special_bonus_hp_600"
+		"Ability15"		"special_bonus_magic_resistance_30"
+		"Ability16"		"special_bonus_unique_spirit_breaker_2"
+		"Ability17"		"special_bonus_unique_pugna_2"
+		
+		"MovementSpeed"		"300"
+		"StatusMana"		"200"
+		"AttributeBaseStrength"		"35"
+		"AttributeStrengthGain"		"3"
+		"AttributeBaseAgility"		"25"
+		"AttributeAgilityGain"		"2"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+	}
+	//=================================================================================================================
+	// Bristleback | Грем | Grem
+	//=================================================================================================================
+     "npc_dota_hero_bristleback"
+  {
+        "DisableWearables"				"1"	
+		"ModelScale"		"1.5"
+        "AbilityLayout" "4"
+        "Ability1" 		"Grem_CreepyAppearance"
+        "Ability2" 		"Grem_Impenetrability"
+        "Ability3" 		"Grem_HardSkeleton"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Grem_DoNothing"
+		
+		"Ability10"		"special_bonus_mp_100"
+		"Ability11"		"special_bonus_spell_amplify_6"
+		"Ability12"		"special_bonus_unique_centaur_3"
+		"Ability13"		"special_bonus_unique_centaur_4"	
+		"Ability14"		"special_bonus_strength_20"
+		"Ability15"		"special_bonus_gold_income_30"
+		"Ability16"		"special_bonus_unique_centaur_2"
+		"Ability17"		"special_bonus_armor_15"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"MovementSpeed"		"305"
+		"AttributeBaseStrength"		"40"
+		"AttributeStrengthGain"		"3"
+		"AttributeBaseAgility"		"15"
+		"AttributeAgilityGain"		"3"
+		"AttributeBaseIntelligence"		"25"
+		"AttributeIntelligenceGain"		"0.5"
+	}
+	
+	//=================================================================================================================
+	// Rubick | NS | NS
+	//=================================================================================================================
+    "npc_dota_hero_rubick"
+	{
+        "DisableWearables"				"1"
+		"Model"				"models/courier/donkey_crummy_wizard_2014/donkey_crummy_wizard_2014.vmdl"
+		"ModelScale"		"1.2"
+		
+        "AbilityLayout" "4"
+        "Ability1" 		"Ns_Tricks"
+        "Ability2" 		"Ns_FullCounter"
+        "Ability3" 		"Ns_TricksMaster"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Ns_KBU"
+		
+		"AttributeBaseStrength"		"25"
+		"AttributeStrengthGain"		"2.5"
+		"AttributeBaseAgility"		"25"
+		"AttributeAgilityGain"		"2.5"
+		"AttributeBaseIntelligence"		"35"
+		"AttributeIntelligenceGain"		"3.5"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"Ability10"		"special_bonus_exp_boost_25"
+		"Ability11"		"special_bonus_movement_speed_50"
+		"Ability12"		"special_bonus_cast_range_125"
+		"Ability13"		"special_bonus_hp_250"
+		"Ability14"		"special_bonus_unique_rubick_2"
+		"Ability15"		"special_bonus_gold_income_30"
+		"Ability16"		"special_bonus_attack_speed_140"
+		"Ability17"		"special_bonus_unique_rubick_3"
+	}
+	
+	//=================================================================================================================
+	// Earth Spirit | Red21 | Red21
+	//=================================================================================================================
+    "npc_dota_hero_earth_spirit"
+	{
+		"ModelScale"		"1.2"
+        "AbilityLayout" "4"
+        "Ability1" "Red21_Vomit"
+        "Ability2" "Red21_MakeAFeeder"
+        "Ability3" "Red21_GetMoreMass"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Red21_HUSTLE"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_unique_terrorblade"
+		"Ability11"		"special_bonus_hp_regen_5"
+		"Ability12"		"special_bonus_unique_terrorblade_2"
+		"Ability13"		"special_bonus_cooldown_reduction_25"
+		"Ability14"		"special_bonus_lifesteal_25"
+		"Ability15"		"special_bonus_movement_speed_100"
+		"Ability16"		"special_bonus_attack_damage_150"
+		"Ability17"		"special_bonus_unique_terrorblade_3"
+	}
+	
+	//=================================================================================================================
+	// Zeus | Якубович | Yakubovich
+	//=================================================================================================================
+    "npc_dota_hero_zuus"
+	{
+		"ModelScale"	"1.2"
+        "AbilityLayout" "4"
+		
+        "Ability1" 		"Yakubovich_GiftsInTheStudio"
+        "Ability2" 		"shredder_chakram"
+        "Ability3" 		"Yakubovich_Really"
+		"Ability4"		"shredder_chakram_2"
+		"Ability5" 		"generic_hidden"
+		"Ability6" 		"Yakubovich_Car"
+		"Ability7"		"shredder_return_chakram"
+		"Ability8"		"shredder_return_chakram_2"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"Ability10"		"special_bonus_hp_250"
+		"Ability11"		"special_bonus_exp_boost_25"
+		"Ability12"		"special_bonus_unique_storm_spirit_2"
+		"Ability13"		"special_bonus_cooldown_reduction_15"
+		"Ability14"		"special_bonus_spell_lifesteal_20"
+		"Ability15"		"special_bonus_spell_amplify_25"
+		"Ability16"		"special_bonus_hp_600"
+		"Ability17"		"special_bonus_unique_storm_spirit_3"
+	}
+	
+	//=================================================================================================================
+	// Tusk | Кирилл Терешин | Kirill Tereshin
+	//=================================================================================================================
+    "npc_dota_hero_tusk"
+	{
+		"ModelScale"		"1.2"
+        "AbilityLayout" "4"
+        "Ability1" "Kirill_GiantArms"
+        "Ability2" "Kirill_ShakeTheGround"
+        "Ability3" "Kirill_InjectSynthol"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Kirill_SpecialDobbleHit"
+		"AttackRate"		"1.3"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_mp_100"
+		"Ability11"		"special_bonus_strength_10"
+		"Ability12"		"special_bonus_hp_regen_10"
+		"Ability13"		"special_bonus_unique_tusk"
+		"Ability14"		"special_bonus_corruption_5"
+		"Ability15"		"special_bonus_lifesteal_30"
+		"Ability16"		"special_bonus_unique_morphling_1"
+		"Ability17"		"special_bonus_unique_tusk_2"
+	}
+	
+	//=================================================================================================================
+	// Venomancer | Гомункул | Homunculus
+	//=================================================================================================================
+    "npc_dota_hero_venomancer"
+	{
+        "AbilityLayout" "4"
+        "Ability1" "Homunculus_IBorn"
+        "Ability2" "Homunculus_Spit"
+        "Ability3" "Homunculus_Damn"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Homunculus_Dictionary"
+		
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"21"
+		"AttributeStrengthGain"		"1.7"
+		"AttributeBaseIntelligence"	"30"
+		"AttributeIntelligenceGain"	"3.0"
+		"AttributeBaseAgility"		"16"
+		"AttributeAgilityGain"		"1.2"	
+		
+		"Ability10"		"special_bonus_gold_income_15"
+		"Ability11"		"special_bonus_armor_5"
+		"Ability12"		"special_bonus_unique_venomancer"
+		"Ability13"		"special_bonus_cast_range_200"
+		"Ability14"		"special_bonus_cooldown_reduction_15"
+		"Ability15"		"special_bonus_spell_amplify_15"
+		"Ability16"		"special_bonus_unique_venomancer_2"
+		"Ability17"		"special_bonus_unique_venomancer_3"
+	}
+	
+	//=================================================================================================================
+	// Clockwerk | Face | Face
+	//=================================================================================================================
+     "npc_dota_hero_rattletrap"
+	{
+        "AbilityLayout" "4"
+        "Ability1" "Face_ShopGucci"
+        "Ability2" "Face_Hate"
+        "Ability3" "undying_tombstone"
+		"Ability4" "generic_hidden"
+		"Ability5" "lycan_howl"
+		"Ability6" "Face_NewSong"
+		"AttributeIntelligenceGain"	"1.5"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_unique_venomancer_4"
+		"Ability11"		"special_bonus_hp_regen_10"
+		"Ability13"		"special_bonus_cooldown_reduction_12"
+		"Ability12"		"special_bonus_unique_venomancer_5"
+		"Ability14"		"special_bonus_unique_venomancer_6"
+		"Ability15"		"special_bonus_unique_undying_5"
+		"Ability16"		"special_bonus_unique_tusk_5"
+		"Ability17" 	"special_bonus_hp_600"
+	}
+	
+	//=================================================================================================================
+	// Sven | Гатс | Guts
+	//=================================================================================================================
+    "npc_dota_hero_sven"
+	{
+        "AbilityLayout" "4"
+        "Ability1" "sven_storm_bolt"
+        "Ability2" "phantom_assassin_stifling_dagger"
+        "Ability3" "Guts_InimitableTactician"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Guts_DarkArmor"
+		"AttackRate"		"0.900000"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"IsAnime"	"1"
+		"Ability10"		"special_bonus_hp_200"
+		"Ability11"		"special_bonus_attack_speed_30"
+		"Ability12"		"special_bonus_unique_sven_4"
+		"Ability13"		"special_bonus_corruption_5"
+		"Ability14"		"special_bonus_cleave_60"
+		"Ability15"		"special_bonus_evasion_50"
+		"Ability16"		"special_bonus_unique_sven_2"
+		"Ability17"		"special_bonus_unique_invoker_9"
+	}
+	
+	//=================================================================================================================
+	// Wyvern | Наклз | Knuckles
+	//=================================================================================================================
+    "npc_dota_hero_winter_wyvern"
+	{
+        "DisableWearables"				"1"
+		"ModelScale"					"4"
+		"Model"							"models/hero_knuckles.vmdl"
+        "AbilityLayout" 				"4"
+		
+        "Ability1" "phantom_lancer_juxtapose"
+        "Ability2" "Knuckles_Spit"
+        "Ability3" "Knuckles_queens"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Knuckles_GetInTheTank"
+		"Ability8"	"Knuckles_Cluck"
+		
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"19"
+		"AttributeStrengthGain"			"2.400000"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.100000"
+		"AttributeBaseAgility"			"25"
+		"AttributeAgilityGain"			"2.600000"
+		
+		"Ability10"		"special_bonus_gold_income_15"
+		"Ability11"		"special_bonus_all_stats_7"
+		"Ability12"		"special_bonus_hp_350"
+		"Ability13"		"special_bonus_unique_winter_wyvern_3"
+		"Ability14"		"special_bonus_movement_speed_100"
+		"Ability15"		"special_bonus_magic_resistance_30"
+		"Ability16"		"special_bonus_unique_winter_wyvern_4"
+		"Ability17"		"special_bonus_attack_speed_140"
+	}
+	
+	//=================================================================================================================
+	// Clinkz | JesusAVGN | JesusAVGN
+	//=================================================================================================================
+    "npc_dota_hero_clinkz"
+	{
+        "AbilityLayout" "4"
+        "Ability1" "JesusAVGN_Spider"
+        "Ability2" "JesusAVGN_SpiderPoison"
+        "Ability3" "JesusAVGN_PunchSpider"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "JesusAVGN_GangstaAlexey"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"Ability10"		"special_bonus_armor_5"
+		"Ability11"		"special_bonus_magic_resistance_15"
+		"Ability12"		"special_bonus_evasion_20"
+		"Ability13"		"special_bonus_unique_legion_commander_2"
+		"Ability14"		"special_bonus_unique_clinkz_1"
+		"Ability15"		"special_bonus_unique_clinkz_3"
+		"Ability16"		"special_bonus_attack_speed_140"
+		"Ability17"		"special_bonus_unique_legion_commander"
+		
+		"AttributeBaseStrength"		"12"
+		"AttributeStrengthGain"		"2.200000"
+		
+		"AttackRate"		"1.400000"
+	}
+	
+	//=================================================================================================================
+	// Vengeful Spirit | Широ | Shiro
+	//=================================================================================================================
+    "npc_dota_hero_vengefulspirit"
+	{
+        "AbilityLayout" "4"
+        "Ability1" "Shiro_NamelessWorm"
+        "Ability2" "Shiro_Punch"
+        "Ability3" "Shiro_Shield"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Shiro_WretchedEggAwakeness"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"IsAnime"	"1"
+	
+		"Ability10"		"special_bonus_movement_speed_45"
+		"Ability11"		"special_bonus_magic_resistance_15"
+		"Ability12"		"special_bonus_attack_damage_50"
+		"Ability13"		"special_bonus_unique_vengeful_spirit_1"
+		"Ability14"		"special_bonus_unique_vengeful_spirit_3"
+		"Ability15"		"special_bonus_evasion_30"
+		"Ability16"		"special_bonus_unique_vengeful_spirit_2"
+		"Ability17"		"special_bonus_attack_speed_140"
+	}
+	
+	//=================================================================================================================
+	// Huskar | Букин | Bukin
+	//=================================================================================================================
+    "npc_dota_hero_huskar"
+	{
+		"ModelScale"		"1.1"
+        "AbilityLayout" "4"
+        "Ability1" "Bukin_HatTrickLeatherBall"
+        "Ability2" "Bukin_Spears"
+		"Ability3" "Bukin_Rage"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "meepo_divided_we_stand"
+		
+		"AttributeBaseStrength"			"16"
+		"AttributeStrengthGain"			"1.9"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_attack_damage_40"
+		"Ability11"		"special_bonus_agility_10"
+		"Ability12"		"special_bonus_lifesteal_15"
+		"Ability13"		"special_bonus_armor_5"
+		"Ability14"		"special_bonus_evasion_20"
+		"Ability15"		"special_bonus_unique_huskar"
+		"Ability16"		"special_bonus_attack_range_250"
+		"Ability17"		"special_bonus_hp_600"
+	}
+	
+	//=================================================================================================================
+	// Spectre | Ruby Rose | Ruby Rose
+	//=================================================================================================================
+    "npc_dota_hero_spectre"
+	{
+        "AbilityLayout" "4"
+		"Model"	"models/heroes/anime/ghoul/kaneki/kaneki_base/kaneki_base.vmdl"
+		"DisableWearables"				"1"
+		"ModelScale"		"1.270000"
+		
+        "Ability1" "pangolier_swashbuckle"
+        "Ability2" "Ruby_Fade"
+		"Ability3" "Ruby_SilverEyes"
+		"Ability4" "generic_hidden"
+		"Ability5" "generic_hidden"
+		"Ability6" "Ruby_RoseStrike"
+		
+		"Ability10"		"special_bonus_mp_100"
+		"Ability11"		"special_bonus_movement_speed_45"
+		"Ability12"		"special_bonus_unique_pangolier_3"
+		"Ability13"		"special_bonus_strength_15"
+		"Ability14"		"special_bonus_unique_pangolier_4"
+		"Ability15"		"special_bonus_unique_spectre"
+		"Ability16"		"special_bonus_attack_speed_250"
+		"Ability17"		"special_bonus_unique_spectre_2"
+		"IsAnime"	"1"
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"25"
+		"AttributeStrengthGain"			"2.500000"
+		"AttributeBaseAgility"			"23"
+		"AttributeAgilityGain"			"2.100000"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.500000"
+	}
+	
+	//=================================================================================================================
+	// AntiMage | Illidan | Illidan
+	//=================================================================================================================
+    "npc_dota_hero_antimage"
+	{
+        "override_hero" 				"npc_dota_hero_antimage"
+		"DisableWearables"				"1"	
+        "AbilityLayout" "4"
+        "Ability1" 		"Illidan_ChaseTheDevil"
+        "Ability2"		"Illidan_DrinkSomePepper"
+        "Ability3" 		"Illidan_KidsHit"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"Illidan_Brutality"
+		
+		"AttributeStrengthGain"		"2.0"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"Ability10"		"special_bonus_attack_speed_40"
+		"Ability11"		"special_bonus_strength_10"
+		"Ability12"		"special_bonus_unique_antimage_5"
+		"Ability13"		"special_bonus_agility_15"
+		"Ability14"		"special_bonus_all_stats_20"
+		"Ability15"		"special_bonus_lifesteal_30"
+		"Ability16"		"special_bonus_unique_antimage"
+		"Ability17"		"special_bonus_unique_antimage_2"
+	}
+	
+	//=================================================================================================================
+	// Legion Commander | Аяно Аиши | Yandere Chan
+	//=================================================================================================================
+    "npc_dota_hero_legion_commander"
+	{
+        "override_hero" 	"npc_dota_hero_legion_commander"	
+        "AbilityLayout" 	"4"
+		"IsAnime"	"1"
+        "Ability1" 			"Ayano_TakeACircularSaw"
+        "Ability2"			"Ayano_Tranquilizer"
+        "Ability3" 			"Ayano_WeakMind"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"Ayano_Mischief"
+		"Ability6"			"Ayano_SpotTheTarget"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_unique_legion_commander_4"
+		"Ability11"		"special_bonus_strength_10"
+		"Ability12"		"special_bonus_armor_10"
+		"Ability13"		"special_bonus_cooldown_reduction_15"
+		"Ability14"		"special_bonus_unique_invoker_4"
+		"Ability15"		"special_bonus_strength_25"
+		"Ability16"		"special_bonus_spell_immunity"
+		"Ability17"		"special_bonus_unique_legion_commander_3"
+	}
+	
+	//=================================================================================================================
+	// Timbersaw | Должанский | Doljansky
+	//=================================================================================================================
+    "npc_dota_hero_shredder"
+	{
+        "override_hero" "npc_dota_hero_shredder"	
+        "AbilityLayout" "4"
+		
+        "Ability1" 	"Doljan_RapBattle"
+        "Ability2"	"undying_decay"
+        "Ability3" 	"Doljan_DrinkSomeVodka"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"Doljan_Intellect"
+		"Ability10"		"special_bonus_exp_boost_25"
+		"Ability11"		"special_bonus_spell_amplify_10"
+		"Ability12"		"special_bonus_attack_damage_100"
+		"Ability13"		"special_bonus_intelligence_15"
+		"Ability14"		"special_bonus_unique_timbersaw"
+		"Ability15"		"special_bonus_cooldown_reduction_30"
+		"Ability16"		"special_bonus_unique_timbersaw_2"
+		"Ability17"		"special_bonus_unique_timbersaw_3"
+		
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"			"18"
+		"AttributeStrengthGain"			"1.500000"
+		"AttributeBaseIntelligence"		"24"
+		"AttributeIntelligenceGain"		"2.800000"
+		"AttributeBaseAgility"			"19"
+		"AttributeAgilityGain"			"2.100000"
+	}
+	
+	//=================================================================================================================
+	// Troll Warlord | Генадий Горин | Gorin
+	//=================================================================================================================
+    "npc_dota_hero_troll_warlord"
+	{
+        "override_hero" "npc_dota_hero_troll_warlord"	
+        "AbilityLayout" "4"
+        "Ability1" 	"troll_warlord_berserkers_rage"
+        "Ability2"	"Gorin_TwinBrother"
+        "Ability3" 	"Gorin_Resourcefulness"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"Gorin_rabies"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_hp_250"
+		"Ability12"		"special_bonus_evasion_15"
+		"Ability13"		"special_bonus_attack_speed_50"
+		"Ability14"		"special_bonus_all_stats_20"
+		"Ability15"		"special_bonus_unique_troll_warlord_3"
+		"Ability16"		"special_bonus_unique_troll_warlord_2"
+		"Ability17"		"special_bonus_unique_troll_warlord"
+	}
+	
+	//=================================================================================================================
+	// Pangolier | Гительман | Gitelman
+	//=================================================================================================================
+    "npc_dota_hero_pangolier"
+	{
+        "override_hero" "npc_dota_hero_pangolier"	
+        "AbilityLayout" "4"
+        "Ability1" 	"Gitelman_Kaif"
+        "Ability2"	"windrunner_shackleshot"
+        "Ability3" 	"Gitelman_PhysicalCulture"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"Gitelman_MixedIngridients"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_attack_speed_50"
+		"Ability12"		"special_bonus_attack_damage_50"
+		"Ability13"		"special_bonus_hp_400"
+		"Ability14"		"special_bonus_unique_pangolier_5"
+		"Ability15"		"special_bonus_cooldown_reduction_20"
+		"Ability16"		"special_bonus_lifesteal_100"
+		"Ability17"		"special_bonus_unique_pangolier_6"
+	}
+	
+	//=================================================================================================================
+	// Sniper | RangeR | RangeR
+	//=================================================================================================================
+    "npc_dota_hero_sniper"
+	{
+        "override_hero" "npc_dota_hero_sniper"	
+        "AbilityLayout" "4"
+		"AttackDamageMin"		"60"
+		"AttackDamageMax"		"60"
+        "Ability1" 	"Ranger_NailGun"
+        "Ability2"	"Ranger_GrenadeLauncher"
+        "Ability3" 	"Ranger_ShotGun"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"Ranger_Jump"
+		"Ability6"	"Ranger_QuadDamage"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"Ability10"		"special_bonus_unique_sniper_4"
+		"Ability11"		"special_bonus_hp_225"
+		"Ability12"		"special_bonus_unique_sniper_3"
+		"Ability13"		"special_bonus_attack_damage_50"
+		"Ability14"		"special_bonus_unique_sniper_2"
+		"Ability15"		"special_bonus_armor_15"
+		"Ability16"		"special_bonus_unique_sniper_1"
+		"Ability17"		"special_bonus_cooldown_reduction_30"
+	}
+	
+	//=================================================================================================================
+	// Chaos Knight | Павел Дуров | Pavel Durov
+	//=================================================================================================================
+    "npc_dota_hero_chaos_knight"
+	{
+        "override_hero" "npc_dota_hero_chaos_knight"	
+        "AbilityLayout" "4"
+		
+        "Ability1" 	"Durov_AttackOnPoliceman"
+        "Ability2"	"juggernaut_omni_slash"
+        "Ability3" 	"Durov_DropMoneyInFace"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"Durov_Vpn"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_attack_speed_25"
+		"Ability11"		"special_bonus_mp_100"
+		"Ability12"		"special_bonus_strength_10"
+		"Ability13"		"special_bonus_movement_speed_50"
+		"Ability14"		"special_bonus_lifesteal_25"
+		"Ability15"		"special_bonus_20_bash_2"
+		"Ability16"		"special_bonus_magic_resistance_50"
+		"Ability17"		"special_bonus_unique_juggernaut_2"
+	}
+
+	//=================================================================================================================
+	// Naga Siren | Акаме | Akame
+	//=================================================================================================================
+	"npc_dota_hero_naga_siren"
+	{
+		"DisableWearables"				"1"
+		"ModelScale"		"1.120000"
+		"override_hero"				"npc_dota_hero_naga_siren"
+		"Ability1"					"Akame_blocking"
+		"Ability2"					"Akame_Elimination"
+		"Ability3"					"Akame_cursed_blade"
+		"Ability4"					"generic_hidden"
+	    "Ability5"					"generic_hidden"
+		"Ability6"					"Akame_Demon_Ultimate"
+		
+		"AttributeBaseStrength"		"20"
+		"AttributeStrengthGain"		"2.600000"
+		"AttributeBaseAgility"		"30"
+		"AttributeAgilityGain"		"3.000000"
+		"AttributeBaseIntelligence"		"12"
+		"AttributeIntelligenceGain"		"1.000000"
+		"IsAnime" "1"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"Ability10"				"special_bonus_attack_damage_20"
+		"Ability11"				"special_bonus_hp_175"
+		"Ability12"				"special_bonus_attack_speed_50"
+		"Ability13"				"special_bonus_movement_speed_45"
+		"Ability14"				"special_bonus_all_stats_20"
+		"Ability15"				"special_bonus_lifesteal_25"
+		"Ability16"				"special_bonus_evasion_50"
+		"Ability17"				"special_bonus_magic_resistance_50"
+	}
+	
+	//=================================================================================================================
+	// Elder Titan | Танос | Thanos
+	//=================================================================================================================
+	"npc_dota_hero_elder_titan"
+	{
+		"DisableWearables"				"1"
+		"MovementSpeed"		"250"
+		"ModelScale"		"3.0"
+		"Model"				"models/models/heroes/thanos/hero_thanos.vmdl"
+		"Ability1"			"Thanos_stone_souls"
+		"Ability2"			"Thanos_stone_time"
+		"Ability3"			"Thanos_stone_space"
+		"Ability4"			"Thanos_stone_mind"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"Thanos_stone_strength"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"Ability10"		"special_bonus_attack_speed_35"
+		"Ability11"		"special_bonus_hp_200"
+		"Ability12"		"special_bonus_hp_regen_15"
+		"Ability13"		"special_bonus_agility_15"
+		"Ability14"		"special_bonus_magic_resistance_25"
+		"Ability15"		"special_bonus_armor_20"
+		"Ability16"		"special_bonus_unique_elder_titan"
+		"Ability17"		"special_bonus_lifesteal_100"	
+		
+		"AttackDamageMin"		"50"
+		"AttackDamageMax"		"60"
+		"ArmorPhysical"		"10"
+		"AttributeBaseStrength"		"24"
+		"AttributeStrengthGain"		"2.600000"
+		"AttributeBaseAgility"		"19"
+		"AttributeAgilityGain"		"1.800000"
+		"AttributeBaseIntelligence"		"14"
+		"AttributeIntelligenceGain"		"1.600000"
+	}
+	
+	//=================================================================================================================
+	// Enchantress | Hatsune Miku | Hatsune Miku
+	//=================================================================================================================
+	"npc_dota_hero_enchantress"
+	{
+		"DisableWearables"				"1"
+		"Model"							"models/heroes/skeleton_king/skeleton_king.vmdl"
+		"ModelScale"					"0.5"
+		"ProjectileModel"		"particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf"
+		"ProjectileSpeed"		"900"
+		
+		"Ability1"			"Miku_MusicWave"
+		"Ability2"			"Miku_MusicBarrier"
+		"Ability3"			"Miku_HealSound"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"Miku_DanceSong_cancel"
+		"Ability6"			"Miku_DanceSong"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+		"IsAnime"	"1"
+		"Ability10"		"special_bonus_hp_300"
+		"Ability11"		"special_bonus_unique_enchantress_3"
+		"Ability12"		"special_bonus_cooldown_reduction_10"
+		"Ability13"		"special_bonus_gold_income_25"
+		"Ability14"		"special_bonus_unique_grimstroke_1"
+		"Ability15"		"special_bonus_attack_speed_250"
+		"Ability16"		"special_bonus_unique_enchantress_2"
+		"Ability17"		"special_bonus_unique_enchantress_1"
+	}
+	
+	//=================================================================================================================
+	// Sand King | SCP-173 | SCP-173
+	//=================================================================================================================
+	"npc_dota_hero_sand_king"
+	{
+		"DisableWearables"				"1"
+		"Model"							"models/models/heroes/scp/scp_173.vmdl"
+		"ModelScale"					"1.5"
+		"MovementSpeed"					"250"
+		
+		"Ability1"			"Scp_ScpPassive"
+		"Ability2"			"Scp173_Screamer"
+		"Ability3"			"Scp_DamageAura"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"Scp_FastKill"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"15"
+		"AttributeStrengthGain"		"1"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.800000"
+		"AttributeBaseAgility"		"19"
+		"AttributeAgilityGain"		"2.100000"
+		
+		"Ability10"		"special_bonus_hp_200"
+		"Ability11"		"special_bonus_movement_speed_25"
+		"Ability12"		"special_bonus_attack_speed_50"
+		"Ability13"		"special_bonus_strength_10"
+		"Ability14"		"special_bonus_magic_resistance_25"
+		"Ability15"		"special_bonus_armor_10"
+		"Ability16"		"special_bonus_hp_600"
+		"Ability17"		"special_bonus_unique_sand_king"
+	}
+	
+	//=================================================================================================================
+	// Visage | V1lat | V1lat
+	//=================================================================================================================
+	"npc_dota_hero_visage"
+	{	
+		"Ability1"			"V1lat_Crab"
+		"Ability2"			"V1lat_AiAiAi"
+		"Ability3"			"V1lat_ItsNotNormal"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"V1lat_AiAiAi_slam"
+		"Ability6"			"V1lat_Eminem"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"		
+		"Ability10"		"special_bonus_spell_amplify_10"
+		"Ability11"		"special_bonus_gold_income_15"
+		"Ability12"		"special_bonus_hp_regen_15"
+		"Ability13"		"special_bonus_intelligence_15"
+		"Ability14"		"special_bonus_unique_visage_3"
+		"Ability15"		"special_bonus_unique_visage_2"
+		"Ability16"		"special_bonus_cooldown_reduction_30"
+		"Ability17"		"special_bonus_unique_visage_1"
+	}
+	//=================================================================================================================
+	// Dark Seer | Гарольд | Garold 
+	//=================================================================================================================
+	"npc_dota_hero_dark_seer"
+	{	
+		"Ability1"			"Garold_pain"
+		"Ability2"			"Garold_StealPain"
+		"Ability3"			"Garold_HidePain"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"Garold_Joy"
+		
+		"Ability10"		"special_bonus_hp_200"
+		"Ability11"		"special_bonus_mp_200"
+		"Ability12"		"special_bonus_movement_speed_50"
+		"Ability13"		"special_bonus_unique_dark_seer_2"
+		"Ability14"		"special_bonus_armor_15"
+		"Ability15"		"special_bonus_unique_dark_seer_4"
+		"Ability16"		"special_bonus_unique_dark_seer_3"
+		"Ability17"		"special_bonus_unique_dark_seer"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"22"
+		"AttributeStrengthGain"		"2.1"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.800000"
+		"AttributeBaseAgility"		"19"
+		"AttributeAgilityGain"		"2.100000"
+	}
+	//=================================================================================================================
+	// Ursa | Пистолетов | Pistoletov
+	//=================================================================================================================
+	"npc_dota_hero_ursa"
+	{	
+		"Ability1"			"Pistoletov_dolphin"
+		"Ability2"			"Pistoletov_DeathFight"
+		"Ability3"			"Pistoletov_TrahTibidoh"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"Pistoletov_NewPirat"
+		
+		"Ability10"		"special_bonus_strength_10"
+		"Ability11"		"special_bonus_magic_resistance_15"
+		
+		"Ability12"		"special_bonus_attack_damage_40"
+		"Ability13"		"special_bonus_unique_ursa"
+		
+		"Ability14"		"special_bonus_unique_ursa_2"
+		"Ability15"		"special_bonus_unique_ursa_3"
+		
+		"Ability16"		"special_bonus_unique_ursa_4"
+		"Ability17"		"special_bonus_cooldown_reduction_30"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"22"
+		"AttributeStrengthGain"		"2.5"
+		"AttributeBaseIntelligence"		"16"
+		"AttributeIntelligenceGain"		"1.4"
+		"AttributeBaseAgility"		"19"
+		"AttributeAgilityGain"		"2.500000"
+	}
+	//=================================================================================================================
+	// Abaddon | Edward Debil | Edward Debil
+	//=================================================================================================================
+	"npc_dota_hero_abaddon"
+	{	
+		"Ability1"			"EdwardBil_Agression"
+		"Ability2"			"EdwardBil_Chi_Yes"
+		"Ability3"			"EdwardBil_V_EBASOS"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"edward_bil_prank"
+		"Ability6"			"edward_gopnik"
+		
+		"model"				"models/heroes/meepo/meepo.vmdl"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"DisableWearables"				"1"
+		"ModelScale"					"1.7"
+		
+		
+		"Ability10"		"special_bonus_hp_300"
+		"Ability11"		"special_bonus_unique_bloodseeker_3"
+		
+		"Ability12"		"special_bonus_unique_abaddon"
+		"Ability13"		"special_bonus_unique_abaddon_2"
+		
+		"Ability14"		"special_bonus_unique_silencer"
+		"Ability15"		"special_bonus_unique_silencer_2"
+		
+		"Ability16"		"special_bonus_unique_abaddon_3"
+		"Ability17"		"special_bonus_unique_bloodseeker_4"
+	}
+	//=================================================================================================================
+	// LifeStealer | Канеки | Kaneki
+	//=================================================================================================================
+	"npc_dota_hero_life_stealer"
+	{	
+		"Ability1"			"kaneki_ghoul"
+		"Ability2"			"kaneki_coffee"
+		"Ability3"			"kaneki_feeling"
+		"Ability4"			"generic_hidden"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"kaneki_rage"
+		"model"				"models/heroes/anime/rwby/ruby/ruby_basic.vmdl"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"IsAnime"	"1"
+		"DisableWearables"				"1"
+		"ModelScale"					"0.5"
+		
+		"Ability10"		"special_bonus_attack_speed_40"
+		"Ability11"		"special_bonus_hp_250"
+		"Ability12"		"special_bonus_unique_bloodseeker"
+		"Ability13"		"special_bonus_unique_bloodseeker_2"
+		"Ability14"		"special_bonus_20_bash_2"
+		"Ability15"		"special_bonus_all_stats_20"
+		"Ability16"		"special_bonus_armor_30"
+		"Ability17"		"special_bonus_lifesteal_30"
+	}
+	//=================================================================================================================
+	// Enigma | Рикардо милос | Rikardo Milos
+	//=================================================================================================================
+	"npc_dota_hero_enigma"
+	{	
+		"Ability1"			"Ricardo_Zhopa"
+		"Ability2"			"Ricardo_shel"
+		"Ability3"			"Ricardo_KokosMaslo"
+		"Ability4"			"Rikardo_Fire"
+		"Ability5"			"generic_hidden"
+		"Ability6"			"Ricardo_Golosovanie"
+		"Ability10"		"special_bonus_armor_6"
+		"Ability11"		"special_bonus_mp_regen_2"
+		
+		"Ability12"		"special_bonus_spell_amplify_25"
+		"Ability13"		"special_bonus_unique_enigma"
+		
+		"Ability14"		"special_bonus_unique_enigma_2"
+		"Ability15"		"special_bonus_unique_enigma_3"
+		
+		"Ability16"		"special_bonus_unique_bane_1"
+		"Ability17"		"special_bonus_unique_bane_2"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+	}
+	//=================================================================================================================
+	// Willow | Monika | Моника
+	//=================================================================================================================
+	"npc_dota_hero_dark_willow"
+	{	
+		"Model"                        "models/heroes/monika/monika.vmdl"
+		"DisableWearables"				"1"
+		"ModelScale"		"1.3"
+		"IsAnime"	"1"
+		"Ability1"        "monika_omniper"
+		"Ability2"        "monika_concept"
+        "Ability3"        "monika_fourthwall_1"
+        "Ability4"        "monika_fourthwall_2"
+        "Ability5"        "generic_hidden"
+        "Ability6"        "monika_perception"
+        "Ability7"        "monika_perception_teleport"
+		
+		"Ability10"		"special_bonus_agility_10"
+		"Ability11"		"special_bonus_unique_lone_druid_4"
+		
+		"Ability12"		"special_bonus_attack_speed_40"
+		"Ability13"		"special_bonus_hp_300"
+		
+		"Ability14"		"special_bonus_unique_lone_druid_2"
+		"Ability15"		"special_bonus_unique_lone_druid_3"
+		
+		"Ability16"		"special_bonus_unique_lone_druid_1"
+		"Ability17"		"special_bonus_lifesteal_10"
+		
+		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"20"
+		"AttributeStrengthGain"		"2.300000"
+		"AttributeBaseIntelligence"		"12"
+		"AttributeIntelligenceGain"		"1.0"
+		"AttributeBaseAgility"		"24"
+		"AttributeAgilityGain"		"3.700000"
+	}
+}

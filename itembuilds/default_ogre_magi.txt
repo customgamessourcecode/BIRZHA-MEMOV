@@ -1,0 +1,41 @@
+"itembuilds"
+{
+	"author"	"Solomon"
+	"hero"		"npc_dota_hero_ogre_magi"
+	"tile"		"Birzha memov"
+
+	"items"
+	{
+		"#DOTA_Item_Build_Starting_Items"
+		{
+			"item"		"item_boots"
+			"item"		"item_smoke_of_deceit"
+			"item"		"item_bond"
+			"item"		"item_abakan"
+			"item"		"item_flask"
+		}
+		"#DOTA_Item_Build_Core_Items"
+		{
+			"item"		"item_pt_mem"
+			"item"		"item_chill_aquila"
+ 			"item"		"item_diffusal_blade_2"
+			"item"		"item_mem_chebureksword"
+			"item"		"item_ward_dispenser"
+		}
+		"#DOTA_Item_Build_Late_Items"
+		{
+       			"item"		"item_mega_spinner"
+			"item"		"item_bloodthorn"
+ 			"item"		"item_satanic"	
+			"item"		"item_sheepstick"
+			"item"		"item_abyssal_blade"
+ 			"item"		"item_heavens_halberd"
+			"item"		"item_burger_sobolev"
+			"item"		"item_burger_oblomoff"
+		}
+		"#DOTA_Item_Build_Luxury_Items"
+		{
+			"item"		"item_baldezh"
+		}
+	}
+}

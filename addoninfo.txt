@@ -1,0 +1,27 @@
+"AddonInfo"
+{
+	"maps"  "birzhamemov_solo birzhamemov_duo birzhamemov_trio birzhamemov_5v5v5 birzhamemov_5v5"
+	"IsPlayable" "1"
+	"PenaltiesEnabled"	"1"
+	
+	"birzhamemov_solo"
+	{
+		"MaxPlayers"		"10"
+	}
+	"birzhamemov_duo"
+	{
+		"MaxPlayers"		"10"
+	}
+	"birzhamemov_trio"
+	{
+		"MaxPlayers"		"9"
+	}
+	"birzhamemov_5v5v5"
+	{
+		"MaxPlayers"		"15"
+	}
+	"birzhamemov_5v5"
+	{
+		"MaxPlayers"		"10"
+	}
+}
